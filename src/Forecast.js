@@ -20,7 +20,7 @@ export default class Forecast extends Component {
   }
 
   refresh = () => {
-    let url = `${Api.url}/data/2.5/forecast?appid=${Api.key}&units=metric&q=${this.state.city}`;
+    let url = `${Api.url}/data/2.5/weather?appid=${Api.key}&units=metric&q=${this.state.city}`;
 
     axios.get(url).then((response) => {
       let forecast = response.data.list;
