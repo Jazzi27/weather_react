@@ -7,7 +7,6 @@ import CurrentLocation from "./CurrentLocation";
 import Search from "./Search";
 import DateUtil from "./DateUtil";
 import Api from "./Api";
-import Forecast from "./Forecast";
 
 export default class Weather extends Component {
   static propTypes = {
@@ -93,7 +92,7 @@ export default class Weather extends Component {
               </div>
             </div>
           </div>
-          <Forecast city={this.state.city} />
+          {/* <Forecast city={this.state.city} /> */}
         </div>
       );
     } else {

@@ -1,4 +1,4 @@
 export default class Api {
   static url = "https://api.openweathermap.org";
-  static key = "fa9b5od34af433a7b000be6ft1a75606";
+  static key = "e6c2364656962bdcb16bc352fc42569a";
 }
