@@ -19,7 +19,7 @@ export default class Search extends Component {
 
   render() {
     return (
-      <form className="float-left" onClick={(event) => this._submit(event)}>
+      <form className="float-left" onSubmit={(event) => this._submit(event)}>
         <input
           type="text"
           placeholder="Enter a city"
@@ -28,7 +28,7 @@ export default class Search extends Component {
           onChange={(event) => this._handleChange(event)}
           value={this.state.value}
         />
-        <input type="submit" value="Search" className="btn btn-primary" />
+        <input type="submit" value="Search" className="btn" />
       </form>
     );
   }

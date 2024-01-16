@@ -7,7 +7,7 @@ export default class App extends Component {
       <div>
         <div>
           <div className="App">
-            <Weather city="lisbon" />
+            <Weather city="Toronto" />
           </div>
         </div>
       </div>
